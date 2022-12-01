@@ -3,7 +3,7 @@ import Form from "./Form";
 import Registration from "./Registration";
 import Login from "./Login";
 
-var userIsRegistered = false;
+var userIsRegistered = true;
 
 function createLoggedin() {
   if (userIsRegistered === false) {
